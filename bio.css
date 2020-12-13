@@ -71,7 +71,8 @@
 	}
 
 	.bio-img > img {
-		max-width: 60px; 
+		max-width: 60px;
+		max-height: 100%; 
 	}
 
 	.bio-text {
