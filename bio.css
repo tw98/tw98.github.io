@@ -1,0 +1,230 @@
+/*********** BI0 PAGE ***********/
+
+.section-title {
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.section-subsection {
+	padding-left: 20px;
+}
+
+.a {
+	color: black;
+}
+
+.bio-item {
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.bio-date {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	max-width: 100%;
+	width: 100%;
+	/*vertical-align: middle;*/
+}
+
+.bio-img > img {
+	width: auto;
+	display: block;
+	max-width: 100%;
+	margin: auto;
+  	vertical-align: middle;
+  	min-width: 50px;
+}
+
+.bio-text {
+	margin: auto;
+	padding-left: 50px;
+	max-width: 100%;
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	.bio-date {
+		margin: 0;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+	.bio-date > div {
+		width: 200px;
+		margin: 0;
+	  	position: absolute;
+	  	top: 50%;
+	  	left: 50%;
+	  	-ms-transform: translate(-50%, -50%);
+	  	transform: translate(-50%, -50%);
+	  	text-align: center;
+	}
+
+	.bio-img {
+		max-height: 50px; 
+		max-width: 40%;
+		float: right !important;
+	}
+	.bio-img > img {
+		max-height: 100%; 
+	}
+
+	.bio-text {
+		/*text-align: center;*/
+		padding: 20px 0 0;
+	}
+	.station-title {
+		display:table;
+		margin:0 auto;
+		text-align: center;
+	}
+
+	#soccer-text {
+		colspan: 2;
+	}
+}
+
+.station-title {
+	font-weight: bold;
+}
+
+.bio-info-text {
+	padding: 10px;
+	font-size: 14px;
+
+}
+
+.bio-info-text > p {
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0; 
+}
+
+.bio-info-text > ul {
+	margin-bottom: 0;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	word-wrap: break-word;
+}
+
+#skills {
+	font-weight: 500;
+	font-style: italic;
+	padding: 0;
+}
+
+.bio-tech-skills {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.soccer-section {
+	height: auto;
+	min-height: 0;
+}
+
+@media (max-width: 900px) {
+	.soccer-section {
+		padding: 0;
+	}
+}
+
+.soccer-stations {
+	/*padding: 0*/
+	width: 100%;
+	text-align: left;
+/*	white-space: nowrap;*/
+}
+
+#soccer-date {
+	padding-left: 20px;
+	padding-right: 20px;
+	min-width: 200px;
+	text-align: left;
+	padding-top: 10px;
+	vertical-align: text-top;
+}
+
+#soccer-img {
+	min-width: 50px;
+	padding-top: 10px;
+	vertical-align: text-top;
+}
+
+.slideshow {
+	padding-top: 30px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+  width: auto;
+  height: 230px;
+}
+
+/* Hide the images by default */
+.slide {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

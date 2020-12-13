@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+
+        <title>Tom Wallenstein</title>
+        <meta name="description" content="Homepage of Tom Wallenstein">
+        <meta name="author" content="Tom Wallenstein">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <link href="custom.css" rel="stylesheet">
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+  <!--       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script> -->
+        <div class="container">
+            <!-- ******************************************************************** -->
+            <!-- NAVIGATION BAR -->
+            <nav class="navbar navbar-expand-md navbar-custom fixed-top">
+                <div class="navbar-header">
+                    <a class="title" href="index.html">Tom Wallenstein</a>
+                    <button class="navbar-toggler right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i> 
+                    </button>
+                    
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-links"> <!--  navbar-custom"> -->
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="index.html">Home</a>
+                        </li> 
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="bio.html">Resume/Bio</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link active-custom" href="projects.html">Projects</a>
+                        </li>
+    <!--                     <li class="navbar-item">
+                            <a class="navbar-link" href="blog.html">Blog</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+            <!-- ******************************************************************** -->
+            <!-- MAIN BODY -->
+            <div class="centered-body container-fluid">
+                <h3>PROJECTS</h3>
+                <span> A collection of projects I made during my free time or for class assignments.</span>
+                <hr>
+                <div class="container-fluid project-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="project-title">IMDB Analysis Portal</h4>
+                            <p id="skills">Languages/Frameworks: MySQL, Python, Dash</p>
+                            <div class="project-description">
+                                This project creates an online app, which makes it possible to search, rank, and find related productions in the IMDb database. The app uses Dash to display the front-end. In the back-end, it uses a MySQL database, which contains tables with information about movies, in th back-end.
+                            </div>
+                            <a class="btn btn-primary btn-outline" href="https://github.com/tw98/imdb-analysis" target="_blank">Link To Github</a>
+                        </div>
+                        <div class="col-md-6 project-img">
+                            <img src="img/rank.png">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container-fluid project-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="project-title">Climate History Chart</h4>
+                            <p id="skills">Languages/Frameworks: JavaScript, D3.js, HTML</p>
+                            <div class="project-description">
+                                Visualization showing the CO2 emissions and GDP of countries for a respective year between 1910 and 2016 and temperature anomalies trends for different earth regions. World map and line graph support hover feature to show more information.
+                            </div>
+                            <a class="btn btn-primary btn-outline" href="https://github.com/tw98/d3_climate_chart" target="_blank">Link To Github</a>
+                        </div>
+                        <div class="col-md-6 project-img">
+                            <img src="img/climate_chart.png">
+                        </div>
+                    </div>    
+                </div>
+                <hr>
+                <div class="container-fluid project-item">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="project-title">Room Mate Selector</h4>
+                            <p id="skills">Languages/Frameworks: Python</p>
+                            <div class="project-description">
+                                This script groups 2-3 people from a larger group together in a random manner. Matches names (input given as textfile, must be in same dict as script) with given corresponding nicknames (textfile) and corresponding pictures (in seperate dict called ./pics).
+
+                                I wrote the script to randomize the hotel room assignments on away trips with my soccer team
+                            </div>
+                            <a class="btn btn-primary btn-outline" href="https://github.com/tw98/roommate_selector" target="_blank">Link To Github</a>
+                        </div>
+<!--                         <div class="col-md-6">
+                            <div class="project-img">
+                                <img src="img/climate_chart.png">
+                            </div>
+                        </div> -->
+                    </div>    
+                </div>
+                <hr>
+                <div class="container-fluid project-item">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="project-title">Sudoku Solver</h4>
+                            <p id="skills">Languages/Frameworks: Java</p>
+                            <div class="project-description">
+                                This project was my final project for the class CPSC112 Introduction to Programming in my first year at Yale (Spring 2018). Using a modified version of backtracking, the algorithm solves sudokus that were inputted as text file and visualizes the solution.
+                            </div>
+                            <a class="btn btn-primary btn-outline" href="https://github.com/tw98/sudoku_solver" target="_blank">Link To Github</a>
+                        </div>
+<!--                         <div class="col-md-6">
+                            <div class="project-img">
+                                <img src="img/climate_chart.png">
+                            </div>
+                        </div> -->
+                    </div>    
+                </div>
+            </div>
+            <!-- ******************************************************************** -->
+            <!-- FOOTER -->
+            <div class="placeholder"> </div>
+            <div class="footer-copyright">
+                <p>© Tom Wallenstein</p>
+            </div>   
+        </div>
+    </body>
+</html>
+
+
