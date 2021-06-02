@@ -94,6 +94,15 @@
 	font-weight: bold;
 }
 
+.station-title > a{
+	color: black;
+	text-decoration: underline;
+}
+
+.station-title > a:hover {
+	color: #007bff;
+  }
+
 .bio-info-text {
 	padding: 10px;
 	font-size: 14px;
