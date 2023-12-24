@@ -21,6 +21,10 @@
 	}
 }
 
+.news-date {
+	text-align: left;
+}
+
 @media (max-width: 768px) {
 	.news-date {
 		font-weight: bold;
